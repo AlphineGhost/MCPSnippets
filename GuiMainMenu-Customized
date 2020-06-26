@@ -177,7 +177,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         this.drawCenteredString(this.fontRendererObj, "Lifetime Alpha!", 0, -8, RainbowColor.rainbowEffect());
         GlStateManager.popMatrix();
         String s = "§e" + AlphaClient.Client_Name + " V" + AlphaClient.Client_Version + "§8 - §eMinecraft §71.8.8";
-        String s3 = "§eLogged in as: §7§n" + Minecraft.getMinecraft().getSession().getUsername();
+        String s3 = "§eLogged in as: §7§n";
 //        String s4 = "§eDiscord: §7§n"; //Working on a simple Discord Username translator
         this.drawString(this.fontRendererObj, s, 2, this.height - 10, -1);
         this.drawString(this.fontRendererObj, s3, 2, 20, -1);
